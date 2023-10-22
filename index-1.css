@@ -1,0 +1,890 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    font-family: 'Itim', cursive;
+    background-color: burlywood;
+}
+
+.logo {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    margin-top: 30px;
+    padding-left: 600px;
+    font-size: 20px;
+}
+
+.about {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.choose {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.wework {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.team {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.contact {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    background-color: burlywood;
+    height: 720px;
+}
+
+.left {
+    font-family: 'Itim', cursive;
+    width: 50%;
+    position: absolute;
+}
+
+.h1 {
+    padding-left: 100px;
+    margin-top: 175px;
+    font-size: 65px;
+    font-family: 'Itim', cursive;
+}
+
+.para-1 {
+    padding-left: 100px;
+    margin-top: 50px;
+    font-family: 'Itim', cursive;
+    font-size: 23px;
+}
+
+.para-2 {
+    padding-left: 100px;
+    margin-top: 20px;
+    font-family: 'Itim', cursive;
+    font-size: 23px;
+}
+
+.right {
+    position: absolute;
+}
+
+
+.image-2 {
+    height: 430px;
+    width: 370px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 930px;
+    top: 100px;
+}
+
+.image-1 {
+    height: 250px;
+    width: 170px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 230px;
+    top: 12px;
+}
+
+.image-3 {
+    height: 130px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 650px;
+    top: 195px;
+}
+
+.image-4 {
+    height: 80px;
+    width: 60px;
+    position: relative;
+    top: 180px;
+    left: 75px;
+}
+
+.main-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.m1-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: 'Itim', cursive;
+}
+
+.m1-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.m1-mid {
+    margin-top: 50px;
+}
+
+.box-1 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: burlywood;
+    position: absolute;
+    left: 200px;
+    top: 1170px;
+}
+
+.headline-1-h3 {
+    position: absolute;
+    left: 110px;
+    top: 1250px;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-1-p1 {
+    position: absolute;
+    left: 65px;
+    top: 1290px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-1-p2 {
+    position: absolute;
+    left: 170px;
+    top: 1307px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.box-2 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: burlywood;
+    position: absolute;
+    left: 700px;
+    top: 1170px;
+}
+
+.headline-2-h3 {
+    position: absolute;
+    left: 640px;
+    top: 1250px;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-2-p1 {
+    position: absolute;
+    left: 525px;
+    top: 1290px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-2-p2 {
+    position: absolute;
+    left: 640px;
+    top: 1307px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.box-3 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: burlywood;
+    position: absolute;
+    left: 1200px;
+    top: 1170px;
+}
+
+.headline-3-h3 {
+    position: absolute;
+    left: 1110px;
+    top: 1250px;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-3-p1 {
+    position: absolute;
+    left: 1050px;
+    top: 1290px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-3-p2 {
+    position: absolute;
+    left: 1165px;
+    top: 1307px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.m1-mid-1 {
+    margin-top: 200px;
+}
+
+.box-4 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: burlywood;
+    position: absolute;
+    left: 200px;
+    top: 1400px;
+}
+
+.headline-4-h3 {
+    position: absolute;
+    left: 73px;
+    top: 1480px;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-4-p1 {
+    position: absolute;
+    left: 65px;
+    top: 1520px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-4-p2 {
+    position: absolute;
+    left: 70px;
+    top: 1535px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.box-5 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: burlywood;
+    position: absolute;
+    left: 700px;
+    top: 1400px;
+}
+
+.headline-5-h3 {
+    position: absolute;
+    left: 630px;
+    top: 1480px;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-5-p1 {
+    position: absolute;
+    left: 530px;
+    top: 1520px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-5-p2 {
+    position: absolute;
+    left: 630px;
+    top: 1535px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.box-6 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: burlywood;
+    position: absolute;
+    left: 1200px;
+    top: 1400px;
+}
+
+.headline-6-h3 {
+    position: absolute;
+    left: 1115px;
+    top: 1480px;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+
+
+.headline-6-p1 {
+    position: absolute;
+    left: 1015px;
+    top: 1520px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.headline-6-p2 {
+    position: absolute;
+    left: 1040px;
+    top: 1535px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Itim', cursive;
+}
+
+.m2-background {
+    width: 550px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: burlywood;
+    position: absolute;
+    top: 1730px;
+    left: 150px;
+
+}
+
+.image-5 {
+    width: 400px;
+    height: 470px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 1857px;
+    left: 225px;
+}
+
+.m2-right {
+    position: absolute;
+    left: 800px;
+    top: 1720px;
+}
+
+.m2-right-1 {
+    font-size: 40px;
+    position: relative;
+}
+
+.m2-right-1-p1 {
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+}
+
+.m2-right-1-p2 {
+    position: relative;
+    top: 80px;
+    font-size: 18px;
+}
+
+.m2-right-1-box-1 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: burlywood;
+    position: relative;
+    top: 120px;
+}
+
+.m2-right-1-p3 {
+    position: relative;
+    top: 87px;
+    left: 45px;
+    font-size: 17px;
+}
+
+.m2-right-1-box-2 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: burlywood;
+    position: relative;
+    top: 120px;
+}
+
+.m2-right-1-p4 {
+    position: relative;
+    top: 87px;
+    left: 45px;
+    font-size: 17px;
+}
+
+.m2-right-1-box-3 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: burlywood;
+    position: relative;
+    top: 120px;
+}
+
+.m2-right-1-p5 {
+    position: relative;
+    top: 87px;
+    left: 45px;
+    font-size: 17px;
+}
+
+.m2-right-1-box-4 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: burlywood;
+    position: relative;
+    top: 120px;
+}
+
+.m2-right-1-p6 {
+    position: relative;
+    top: 87px;
+    left: 45px;
+    font-size: 17px;
+}
+
+.main-3 {
+    display: flex;
+    font-family: 'Itim', cursive;
+}
+
+.m3-left {
+    height: 650px;
+    width: 1519px;
+    background-color: burlywood;
+    position: absolute;
+    top: 2500px;
+}
+
+.m3-h2 {
+    font-size: 75px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.m3-box-1 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 260px;
+    left: 203px;
+}
+
+.m3-p1 {
+    position: absolute;
+    top: 258.5px;
+    left: 243px;
+    font-size: 23px;
+}
+
+.m3-box-2 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 330px;
+    left: 203px;
+}
+
+.m3-p2 {
+    position: absolute;
+    top: 330px;
+    left: 243px;
+    font-size: 23px;
+}
+
+.m3-box-3 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 420px;
+    left: 203px;
+}
+
+.m3-p3 {
+    position: absolute;
+    top: 420.5px;
+    left: 243px;
+    font-size: 23px;
+}
+
+.m3-box-4 {
+    width: 27px;
+    height: 27px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 490px;
+    left: 203px;
+}
+
+.m3-p4 {
+    position: absolute;
+    top: 490px;
+    left: 243px;
+    font-size: 23px;
+}
+
+.m3-right {
+    position: absolute;
+    top: 2690px;
+    left: 800px;
+}
+
+.m3-right-box1 {
+    overflow: auto;
+    background-color: black;
+    color: burlywood;
+    width: 590px;
+    height: 350px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.m3-right-box1::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 20px;
+}
+
+.m3-right-box1::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 30px;
+}
+
+.m3-right-box1::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.m3-headline {
+    font-size: 19px;
+}
+
+.m3-right-p1 {
+    padding-left: 11px;
+}
+
+.m3-right-box2 {
+    position: relative;
+    top: 18px;
+}
+
+.m3-right-p2 {
+    padding-left: 11px;
+}
+
+.m3-right-box3 {
+    position: relative;
+    top: 18px;
+}
+
+.m3-right-p3 {
+    padding-left: 11px;
+}
+
+.m3-right-box4 {
+    position: relative;
+    top: 18px;
+}
+
+.m3-right-p4 {
+    padding-left: 11px;
+}
+
+.m3-right-box5 {
+    position: relative;
+    top: 18px;
+}
+
+.m3-right-p5 {
+    padding-left: 11px;
+}
+
+.m3-right-box6 {
+    position: relative;
+    top: 18px;
+}
+
+.m3-right-p6 {
+    padding-left: 11px;
+}
+
+.m3-right-box7 {
+    position: relative;
+    top: 18px;
+}
+
+.m3-right-p7 {
+    padding-left: 11px;
+}
+
+.m3-right-box8 {
+    position: relative;
+    top: 18px;
+}
+
+.m3-right-p8 {
+    padding-left: 11px;
+}
+
+.m3-right-box9 {
+    position: relative;
+    top: 18px;
+}
+
+.main-4 {
+    position: absolute;
+    top: 3300px;
+}
+
+.m4-h1 {
+    margin-left: 640px;
+    font-size: 40px;
+}
+
+.right-4 {
+    margin-left: 800px;
+    font-family: 'Itim', cursive;
+}
+
+.right-4-fn {
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.right-4-fn-1 {
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.right-4-ln {
+    font-size: 25px;
+    position: absolute;
+    top: 69px;
+    left: 1112px;
+    margin-top: 70px;
+}
+
+.right-4-ln-1 {
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    position: absolute;
+    left: 1110px;
+    top: 110px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.right-4-email {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.right-4-email-1 {
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.right-4-phone {
+    font-size: 25px;
+    position: absolute;
+    top: 152px;
+    left: 1112px;
+    margin-top: 90px;
+}
+
+.right-4-phone-1 {
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    position: absolute;
+    left: 1110px;
+    top: 214px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.right-4-message {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.right-4-message-1 {
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    width: 550px;
+    height: 100px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.right-4-submit {
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 445px;
+}
+
+.right-4-submit:hover {
+    background-color: burlywood;
+}
+
+.left-4 {
+    margin-left: 200px;
+    font-family: 'Itim', cursive;
+}
+
+.left-4-p1 {
+    position: absolute;
+    top: 200px;
+    font-size: 23px;
+}
+
+.left-4-p2 {
+    color: gray;
+    position: absolute;
+    top: 204px;
+    left: 323px;
+    font-size: 18px;
+}
+
+.left-4-p3 {
+    position: absolute;
+    font-size: 23px;
+    top: 240px;
+}
+
+.left-4-p4 {
+    color: gray;
+    position: absolute;
+    font-size: 20px;
+    top: 242px;
+    left: 269px;
+}
+
+.left-4-p5 {
+    position: absolute;
+    font-size: 23px;
+    top: 283px;
+}
+
+.left-4-p6 {
+    position: absolute;
+    font-size: 20px;
+    color: gray;
+    top: 285px;
+    left: 290px;
+}
+
+.main-5 {
+    position: absolute;
+    top: 4000px;
+    width: 1519px;
+    background-color: burlywood;
+    height: 130px;
+}
+
+.left-5-logo {
+    width: 100px;
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.right-5-p1 {
+    position: absolute;
+    left: 1150px;
+    top: 60px;
+    font-size: 18px;
+}
+
+.right-5-p2 {
+    position: absolute;
+    left: 1227px;
+    top: 58px;
+    font-size: 20px;
+}
